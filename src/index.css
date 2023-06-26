@@ -1,0 +1,425 @@
+*{
+  margin: 0;
+ }
+body {
+  background-image: url('https://images3.alphacoders.com/178/178309.jpg');
+  background-repeat: no-repeat;
+  height: 300vh;
+  width: -20vw;
+  background-size: cover;
+  margin: 0px;
+}
+ .App {
+  width: 100%;
+ }
+ .headerContainer {
+  background-color: rgba(51, 50, 48, 0.598);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 200px;
+  width: 100vw;
+  text-align: center;
+  height: 400px;
+  color: rgb(255, 255, 255);
+ }
+
+ .headerContainer h1 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 90px;
+  height: 60px;
+  font-weight: 50;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.headerContainer p {
+  text-align: center;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: lighter;
+  color: white;
+}
+button {
+  text-align: center;
+}
+
+.headerContainer button {
+  margin-top: 20px;
+  display: flex;
+  color: black;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+  background-color: #121619;
+  height: 50px;
+  width: 180px;
+  color: rgb(200, 167, 23);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+ .navbar {
+  background-color: black;
+  width: 100vw;
+  height: 5vh;
+  align-items: center;
+}
+.nav-links {
+  font-size: 30px;
+  padding: 5px;
+   color:black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-decoration: none;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+.card {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 120px;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  padding: 10px;
+  box-shadow: 2px 2px 5px #ccc;
+  font-size: 20px;
+}
+
+
+.home, .SecondLink, .ThirdLink, .FourthLink {
+  /* height: 80vh; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+}
+
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  background-color: black;
+  color:darkgoldenrod;
+  font-size: 26px;
+  height: 30px;
+}
+
+ .centered {
+  text-align: center;
+  padding: 5px;
+  font-size: 30px;
+}
+.SecondLink {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 120px;
+  /* margin-bottom: 80px; */
+}
+
+.house {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+
+.house img {
+  width: 300px;
+  height: 200px;
+}
+
+.house-name {
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.filtered-names {
+  box-shadow: rgba(203, 210, 211, 0.35) 0px 5px 15px;
+  background-color: rgba(51, 50, 48, 0.598);
+  color: white
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 280px) {
+  body {
+  height: 520vh;
+  background-size: cover;
+  margin: 0px;
+  }
+  .nav-link {
+    font-size: 13px;
+  }
+  .headerContainer h1 {
+    font-size: 40px;
+  }
+  .headerContainer p {
+    font-size: 30px;
+  }
+  .filtered-names p {
+    font-size: 20px;
+  }
+  .card-name {
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .house img {
+    height: 200px;
+    width: 200px;
+  }
+  .card {
+    width: 200px;
+  }
+}
+@media (min-width: 360px) {
+  body {
+  height: 520vh;
+  background-size: cover;
+  margin: 0px;
+  }
+  .nav-link {
+    font-size: 15px;
+  }
+  .headerContainer h1 {
+    font-size: 60px;
+  }
+
+  .headerContainer p {
+    font-size: 30px;
+  }
+  .filtered-names p {
+    font-size: 20px;
+  }
+  .card-name {
+    font-size: 35px;
+    font-weight: 600;
+  }
+}
+@media (min-width: 375px) {
+  body {
+  height: 520vh;
+  background-size: cover;
+  margin: 0px;
+  }
+  .nav-link {
+    font-size: 20px;
+  }
+  .headerContainer h1 {
+    font-size: 60px;
+  }
+
+  .headerContainer p {
+    font-size: 30px;
+  }
+  .filtered-names p {
+    font-size: 20px;
+  }
+  .card-name {
+    font-size: 35px;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 414px) {
+  body {
+    height: 400vh;
+    background-size: cover;
+    margin: 0px;
+    }
+    .nav-link {
+      font-size: 20px;
+    }
+    .headerContainer h1 {
+      font-size: 60px;
+    }
+  
+    .headerContainer p {
+      font-size: 30px;
+    }
+    .filtered-names p {
+      font-size: 20px;
+    }
+}
+@media (min-width: 540px) {
+  body {
+    height: 500vh;
+    background-size: cover;
+    margin: 0px;
+    }
+    .nav-link {
+      font-size: 20px;
+    }
+    .headerContainer h1 {
+      font-size: 60px;
+    }
+  
+    .headerContainer p {
+      font-size: 30px;
+    }
+    .filtered-names p {
+      font-size: 20px;
+    }
+}
+@media (min-width: 768px) {
+  body {
+    height: 300vh;
+    background-size: cover;
+    margin: 0px;
+    }
+    .nav-link {
+      font-size: 30px;
+    }
+    .headerContainer h1 {
+      font-size: 90px;
+    }
+  
+    .headerContainer p {
+      font-size: 50px;
+    }
+    .headerContainer h4 {
+      font-size: 30px;
+      font-weight: lighter;
+    }
+    .filtered-names p {
+      font-size: 20px;
+    }
+    .house img {
+      width: 340px;
+      height: 440px;
+    }
+}
+@media (min-width: 820px) {
+  body {
+    height: 300vh;
+    background-size: cover;
+    margin: 0px;
+    }
+    .nav-link {
+      font-size: 30px;
+    }
+    .headerContainer h1 {
+      font-size: 90px;
+    }
+  
+    .headerContainer p {
+      font-size: 50px;
+    }
+    .headerContainer h4 {
+      font-size: 30px;
+      font-weight: lighter;
+    }
+    .filtered-names p {
+      font-size: 20px;
+    }
+    .house img {
+      width: 340px;
+      height: 440px;
+    }
+}
+@media (min-width: 912px) {
+  body {
+    height: 300vh;
+    background-size: cover;
+    margin: 0px;
+    }
+  .nav-link {
+    font-size: 40px;
+  }
+  .headerContainer h1 {
+    font-size: 100px;
+  }
+  .headerContainer p {
+    font-size: 50px;
+  }
+  .headerContainer h4 {
+    font-size: 30px;
+  }
+  .house img {
+    width: 400px;
+    height: 300px;
+  }
+  .house-name {
+    font-size: 40px;
+  }
+  .filtered-names p {
+    font-size: 40px;
+  }
+  .card {
+    font-size: 30px;
+  }
+  .card-name {
+    font-size: 55px;
+    font-weight: 900;
+  }
+
+}
+@media (min-width: 1024px) {
+  body {
+    height: 600vh;
+    background-size: cover;
+    margin: 0px;
+    }
+  .nav-link {
+    font-size: 40px;
+  }
+  .navbar {
+    height: 50px;
+  }
+  .headerContainer h1 {
+    font-size: 100px;
+  }
+  .headerContainer p {
+    font-size: 50px;
+  }
+  .headerContainer h4 {
+    font-size: 30px;
+  }
+  .house img {
+    width: 400px;
+    height: 300px;
+  }
+  .house-name {
+    font-size: 40px;
+  }
+  .filtered-names p {
+    font-size: 40px;
+  }
+  .card {
+    font-size: 30px;
+    width: 350px;
+  }
+  .card-name {
+    font-size: 55px;
+    font-weight: 900;
+  }
+
+}
